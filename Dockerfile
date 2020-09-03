@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && \
-    apt-get install -y ca-certificates wget gnupg unzip
+    apt-get install -y ca-certificates wget gnupg unzip git
 
 # Install AWS CLI
 ARG AWS_VERSION="2.0.38"
